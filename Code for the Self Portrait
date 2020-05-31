@@ -1,0 +1,32 @@
+//Defining the size for the window
+size(600, 600);
+background (#4FD0D3);
+
+//Body 
+fill(#525250);
+ellipse(300, 520, 210, 250);
+
+//Head
+fill(#FCD17A);
+ellipse (300, 300, 200, 200);
+
+//Hair
+fill(#402D07);
+arc(300, 300, 200, 200, PI+QUARTER_PI, TWO_PI-QUARTER_PI, CHORD);
+
+//Eyes
+fill (255);
+ellipse (260, 270, 45, 15); 
+ellipse (335, 270, 45, 15); 
+
+fill(#402D07);
+circle(260, 270, 15); 
+circle(335, 270, 15);
+
+//Mouth
+noFill();
+arc(300, 330, 80, 80, 0.3, 2.8);
+
+//Nose
+fill(#F0C057);
+triangle(300, 300, 283, 320, 317, 320);
