@@ -9,4 +9,8 @@ You can interact with the program simply by pressing and holding the left mouse 
 movement will immediately stop.
 
 ### Image:
-![](Homework4.png)
+![](homework4.png)
+
+## Transformation
+
+For the transformation excercise, I tried to find a way to make one part of my homework 2 look slightly better. After learning learning the syntax and logic behind transformation in processing, I discovered that it is possible to rotate the entire background, which was made of a large number of small rectangles. Even at a large number, only with a couple of lines of code I was able to mirror the thousands of background rectangles.
