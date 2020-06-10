@@ -1,11 +1,8 @@
 class enemy { //Variables of the class for the enemy
   float _xPos;
   float _yPos;
-  float _ySpeed;
 
-
-  enemy(float xPos, float yPos, float ySpeed) { //Constructor to assign the variables
-    _ySpeed = ySpeed;
+  enemy(float xPos, float yPos) { //Constructor to assign the variables
     _xPos = xPos;
     _yPos = yPos;
   }
@@ -13,13 +10,8 @@ class enemy { //Variables of the class for the enemy
 
     image(alien, _xPos, _yPos);   //Drawing the image for enemies.
   }
-  
-  void move(){
-   _yPos += _ySpeed;
     
-  }
- //dodadeno 
-  void shoot(bullet[] allOfThem){              //Function for shooting.
+  void shoot(bullet[] allOfThem){              //Function for enemy shooting.
     
      for (int i=0; i<allOfThem.length;i++){        
        if(allOfThem[i]==null){
