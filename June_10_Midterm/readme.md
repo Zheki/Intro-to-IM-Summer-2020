@@ -10,6 +10,9 @@ Use the W button to shoot at the enemies.
 Survive and kill them all.
 Have fun! :)
 
+### Example:
+![](space_s.gif)
+
 ### Explanation:
 The code is written using OOP. There is a class for the player, enemies, and bullets. The functionality of the code is described in detail with comments
 in the code itself. The player and the enemies are displayed using an appropriate image, as well as the background, which currently remains static. 
@@ -17,3 +20,6 @@ The bullets are primitive 2D circles which are collored blue for the player and 
 lives at all times. Background music is constantly playing in a loop in the background. Player's shots are accompanied by a laser sound effect.
 
 ### Difficulties:
+I did not encounter many difficulties other than NullPointerErrors, arrays out of bounds, etc. This was easily fixed by re-reading the code and watching tutorials as well as troubleshooting blogs online. PLayer and enemy hitboxes were also quite difficult to make, so in the end I decided that the best outcome is to make them the same size as the images portraying them +- a couple of pixels for accuracy (invisible background of images).
+
+
