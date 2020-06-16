@@ -10,3 +10,6 @@ Finally an if statement checks if the value of the photo resistor which is assin
 
 ### Scheme
 ![](scheme.png)
+
+### Circuit
+![](circuit.jpg)
