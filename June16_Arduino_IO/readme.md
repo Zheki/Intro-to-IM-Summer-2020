@@ -9,4 +9,4 @@ By reading the value of the potentiometer in the analog pin A0, the board reciev
 Finally an if statement checks if the value of the photo resistor which is assinged to analog pin A1 is below a certain treshold, and if the staement is true, it assigns a digital value of high to the pins 9, 10, and 11 to which the LEDs are attached
 
 ### Scheme
-![](homework scheme 1.png)
+![](homework1.png)
