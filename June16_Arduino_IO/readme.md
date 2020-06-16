@@ -13,3 +13,7 @@ Finally an if statement checks if the value of the photo resistor which is assin
 
 ### Circuit
 ![](circuit.jpg)
+The potentiometer currently between the values 340 and 680, which makes the yellow LED glow.
+
+### Complications
+I did not face any issues while creating this circuit. I only experienced problems with uploading the code, which was solved by using a different machine.
