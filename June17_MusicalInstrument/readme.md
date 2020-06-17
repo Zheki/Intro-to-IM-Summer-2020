@@ -12,7 +12,7 @@ prevent individuals to use it to annoy others at night. However, this too has a 
 Note that if multiple objects are placed in the path of the sensor, only the closest one will be detected.
 
 ## Circuit
-![](scheme2.png)
+![](Scheme2.png)
 
 ### Images of the project
 
