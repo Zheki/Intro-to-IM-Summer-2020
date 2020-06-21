@@ -10,7 +10,7 @@ The Arduino and Processing are communicating through the laptop's serial ports. 
 ![](homework21_a.png)
 
 ### Video
-####PThe link to the video can be found here.
+#### The link to the video can be found here.
 Please note that you must use your NYU email to access the videos.
 
 ### Scheme
