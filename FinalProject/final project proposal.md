@@ -11,3 +11,4 @@ motor to make the robot change direction. The DC motors will be connected to a m
 The ultrasonic distance sensor will be mounted on a servo which will constantly rotate between two sides. This will make sure that the sensor has a 
 larger FOV making it less prone to colliding with obstacles. The sensor and actuators will constantly be communicating with each other to determine
 the actions of the robot.
+
