@@ -1,28 +1,30 @@
-## Final Project concept
+# Final Project 
 
-### Idea
-For my final project I am planning to build an autonomous robot. I am hopeful that I will be able to use as much different components from the kit as possible, however, due to the current circuimstances, and limited availability of tools and materals, it is possible that I do not completely achieve this.
+## Idea
+For my final project I built an autonomous robot that moves around a space and avoids obstacles.
 
 
-### Components
+## Components
 Redboard
 Breadboard
 Jumper wires
 Both DC motors
 Both wheels
-RGB LED
-Red, Blue, Green, or Yellow LED
 Distance measuring sensor
-Switch
-Photoresistor
-Push buttons
 Battery holder
 Servo motor
-Thermal sensor(possibly)
-LCD screen(possibly)
+Adafruit V2.3 motor shield
 
-### Two possibilities
-Depending on the availability of jumper wires, I will either construct an autonomous rover with a rotating radar as an awareness mechanism, or a robot that collects and disposes objects, or material. The main difference between these two robots is the useage of the DC motors. The rover will use them as they are supposed to be used, as motors for moving the robot with the wheels. The other option will use them to controll linear movement (similar to stepper motors with belts). I have yet to experiment and determine if the second option is possible.
-The project will be controlled by an arduino. Processing will be used as a vizualization interface, for example, vizualizing what the robot would see through the radar, or testing functionalities of the different components using a GUI.
+
+## How it works
+A sonar mounted on top of a servo is measuring the distance in front of the robot. The sensor is attached to the servo because the servo is rotating it 20 degrees in both directioons in small time intervals, to give it a larger field of view. If there is an object in front of the robot within 30cm, the car stops, retreats and moves either left or right depening on the relative position of the object. If all else is normal, the car keeps moving forward. The robot is moved by two DC motors, and the entire circuit is controlled by an arduino. (The details are explained in the code using comments).
+
+## Schematic
+![](schematic.jgp)
+
+## Images
+
+## VIdeo
+### The link to the video can be found [here](https://drive.google.com/drive/folders/1qWg_s_vuB8lO4eAikoYo8YRJCsLUn7fA?usp=sharing).
 
 
