@@ -23,9 +23,9 @@ A sonar mounted on top of a servo is measuring the distance in front of the robo
 ![](schematic.jpg)
 
 ## Images
-![](p1.jpg)
-![](p2.jpg)
-![](p3.jpg)
+![](pic1.jpg)
+![](pi2.jpg)
+![](pic3.jpg)
 
 ## VIdeo
 ### The link to the video can be found [here](https://drive.google.com/drive/folders/1qWg_s_vuB8lO4eAikoYo8YRJCsLUn7fA?usp=sharing).
